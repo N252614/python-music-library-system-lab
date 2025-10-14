@@ -144,3 +144,31 @@ Before you submit your solution, you need to save your progress with git.
   * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvas)
 
 
+## Song Class — Music Library System
+
+The `Song` class models a song with attributes:
+- `name`
+- `artist`
+- `genre`
+
+It also maintains global analytics:
+- `Song.count` — total number of songs
+- `Song.genres` — list of unique genres
+- `Song.artists` — list of unique artists
+- `Song.genre_count` — dictionary counting songs by genre
+- `Song.artist_count` — dictionary counting songs by artist
+
+---
+
+### Running Tests
+
+To verify functionality:
+```bash
+pytest -q
+```
+### All tests passed successfully
+6 passed in 0.04s
+### Screenshot
+All tests passed successfully:
+
+![Tests passing](/tests_passed.png)
